@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/activity_edit_teman.xml" value="0.22826086956521738" />
         <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/activity_tambah_teman.xml" value="0.20878623188405798" />
         <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/activity_teman_baru.xml" value="0.22826086956521738" />
+        <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/row_data_tambah_teman.xml" value="0.14545454545454545" />
         <entry key="..\:/Aplikasi/ACT7/app/src/main/res/layout/row_data_teman.xml" value="0.22826086956521738" />
+        <entry key="..\:/Aplikasi/ACT7/app/src/main/res/menu/pop_menu.xml" value="0.264" />
         <entry key="..\:/Aplikasi/ACT7/app/src/main/res/menu/popup_menu.xml" value="0.25" />
       </map>
     </option>

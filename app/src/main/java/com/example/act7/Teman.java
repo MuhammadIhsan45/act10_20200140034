@@ -1,6 +1,8 @@
 package com.example.act7;
 
-public class Teman
+import java.io.Serializable;
+
+public class Teman implements Serializable
 {
     String id;
     String nama;

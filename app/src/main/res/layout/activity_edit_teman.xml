@@ -17,13 +17,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edNama"
+            android:id="@+id/editNm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nama"
+            android:inputType="textPersonName"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            tools:background="@color/white"/>
+            tools:background="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -36,39 +37,40 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edTelp"
+            android:id="@+id/editTlp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="No Telpon"
+            android:hint="Telpon"
+            android:inputType="phone"
             android:textColor="@color/black"
-            android:textColorHint="@color/black"/>
+            android:textColorHint="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/simpanBtn"
+        android:id="@+id/buttonEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="UPDATE"
         app:flow_horizontalBias="0.498"
         app:flow_verticalBias="0.618"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout3"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textId"
         android:layout_width="127dp"
         android:layout_height="66dp"
-        android:text="Edit Data"
+        android:gravity="center_horizontal"
+        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@id/textInputLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
