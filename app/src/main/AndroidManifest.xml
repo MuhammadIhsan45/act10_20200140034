@@ -13,8 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ACT7"
         android:usesCleartextTraffic="true">
-        <activity android:name=".EditTeman"></activity>
-        <activity android:name=".TambahTeman"></activity>
+        <activity
+            android:name=".EditTeman"
+            android:exported="false" />
+        <activity android:name=".TambahTeman" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
